@@ -36,6 +36,12 @@ properly. Because of this she was only asleep for one day and Juliet begins to w
 You are paying your repects to her while insdie the tomb when you here rumbling from inside. A young and refreshed Juliet emerges out. You decide
 either to pay attention a little closer and see if she is really your daughter--option A--, or you grab the nearby shovel used to dig the fresh
 grave above into knocking the dead one away--option B--?""")
+if first in ['B','b']:
+    secondsecond = ask("""You ask Juliet what she wants to do. She reponds with I saying that she would like the wedding to continue on the same
+path that it was before, it being on Thursday. This is so none of her plans with the Friar are interfered with. She then takes a risky move because
+she trusts her father and has no reason in the past not to trust her. She explains how she does not really want to marry Paris since she is already
+bethroved to Romeo. She also expresses her love for him. Do you either become enraged at Juliets actions and her force her to marry Paris anyway
+--option A--or repsect her choice to marry Romeo by settling your differences with the Montagues--option B--?""")
     if firstsecond in ['B','b']:
         print(c.b + """You use the shovel to blindly swing around hiting against something in the motion. It was your daughters head. She was killed
 with one blow, now on the floor toppled over. Romeo now enters the tomb with blinding rage as he witnessed you kill his beloved. You each strike
