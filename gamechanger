@@ -13,7 +13,7 @@ Capulet: Send for the county. Go tell him of this I'll have this knot knit up by
 No, not till Thursday. There is time enough.
 Go, nurse. Go with her. We'll to church tomorrow. -Lines 15-38, Act 4, Scene 2""")
 
-print(c.b + """You are Capulet in this situation, in this world though you have not yet made your choice to move up the day of your daughters
+print(c.g + """You are Capulet in this situation, in this world though you have not yet made your choice to move up the day of your daughters
 wedding, you want the best for her so you want her to be happy and married as soon as possible. Your judgement is also clouded because a member
 of your family was just killed by a member of your enemys family. You want to get back the order from the chaos that world had lost. Do you think
 it is best for you to act quickly and move the marriage forward with the intial plans to marry on Thursday--option A-- or ask Juliet when she wants to 
@@ -45,3 +45,7 @@ escape to Mantua with Romeo--option A--or keep her confined to the walls of her 
             firstconclusion = ask("""You chose to let Juliet be herself in a time period where the women had little to no control over their
 lives. You have made one of the first steps into a brighter future for humanity. You have also prevented even more death for now. Your actions also
 made it so the two familys are still enemys with each other and you have by law harbored a fugitive.""")
+        else:
+            print(c.b + """You kept your daughter in a room locked up for her entire life until she eventually killed herself in 3 years over despair.
+Romeo also killed himself as planned when he found out his beloved was marrying another. The two familys did not even settle thier differences at
+the end. The situation is now worse that what the initial outcome was.""")
