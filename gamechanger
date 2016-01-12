@@ -62,6 +62,7 @@ escape to Mantua with Romeo--option a--or keep her confined to the walls of her 
 lives. You have made one of the first steps into a brighter future for humanity. You have also prevented even more death from having to happen.
 Your actions have sadly also made it so the two families will most likely never solve thier dispute now and be forver fighting, while you
 techincally assisted a fugitive.""")
+            better()
         else:
             print(c.b + """You kept your daughter in a room locked up for her entire life until she eventually killed herself in 3 years over
 despair. Romeo also killed himself as planned when he found out his beloved was marrying another. The two families did not even settle their
@@ -83,6 +84,7 @@ your choices are always the best ones.""")
         print(c.b + """You settle your differeces between the Montagues with Romeo and Juliets marriage. You combine your wealth and the familys
 become one of the most wealthy houses in Italy based on the people affections towards the new united house. No more deaths occur and you all live
 on for another six years happily, until the black plaque eventally comes and wipes out your entire town anyway.""")
+        better()
     #if firstsecond in ['B','b']:
         #print(c.b + """You use the shovel to blindly swing around hiting against something in the motion. It was your daughters head. She was killed
 #with one blow, now on the floor toppled over. Romeo now enters the tomb with blinding rage as he witnessed you kill his beloved. You each strike
