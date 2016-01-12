@@ -40,4 +40,8 @@ grave above into knocking the dead one away--option B--?""")
     if firstsecond in ['A','a']:
         firstthird = ask("""You wait and to come to the conlcusion that your daughter is alive. After much interrogation, you make her tell you
 everything that has happened with Romeo. You have the final choice of letting Juliet be happy at the cost of your own happiness by letting her
-escape to Mantua with Romeo--option A--or keep her confined to the walls of her own Room with Paris for the rest of her life--option B--?
+escape to Mantua with Romeo--option A--or keep her confined to the walls of her own Room with Paris for the rest of her life--option B--?""")
+        if firstthird in ['A','a']:
+            firstconclusion = ask("""You chose to let Juliet be herself in a time period where the women had little to no control over their
+lives. You have made one of the first steps into a brighter future for humanity. You have also prevented even more death for now. Your actions also
+made it so the two familys are still enemys with each other and you have by law harbored a fugitive.""")
