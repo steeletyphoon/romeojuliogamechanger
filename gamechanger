@@ -41,7 +41,7 @@ grave above into knocking the dead one away--option B--?""")
 action of the fight. The families problems are never solved, the situation is much worse.""")
     if firstsecond in ['A','a']:
         firstthird = ask("""You wait and come to the conclusion that your daughter is alive. After much interrogation, you make her tell you
-everything that happened with Romeo. You have the final choice of letting Juliet be at the cost of your own happiness by letting her
+everything that happened with Romeo. You have the final choice of letting Juliet be happy at the cost of your own happiness by letting her
 escape to Mantua with Romeo--option a--or keep her confined to the walls of her own room with Paris for the rest of her life--option B--?""")
         if firstthird in ['A','a']:
             firstconclusion = ask("""You chose to let Juliet be herself in a time period where the women had very little to no control over thier
