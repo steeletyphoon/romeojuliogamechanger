@@ -36,3 +36,7 @@ properly. Because of this she was only asleep for one day and Juliet begins to w
 You are paying your repects to her while insdie the tomb when you here rumbling from inside. A young and refreshed Juliet emerges out. You decide
 either to pay attention a little closer and see if she is really your daughter--option A--, or you grab the nearby shovel used to dig the fresh
 grave above into knocking the dead one away--option B--?""")
+    if firstsecond in ['A', 'a']:
+        firstthird = ask("""You wait and to come to the conlcusion that your daughter is alive. After much interrogation, you make her tell you
+everything that has happened with Romeo. You have the final choice of letting Juliet be happy at the cost of your own happiness by letting her
+escape to Mantua with Romeo--option A--or keep her confined to the walls of her own Room with Paris for the rest of her life--option B--?
