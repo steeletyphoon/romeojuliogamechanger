@@ -41,7 +41,7 @@ def better():
 then pressing enter to clear the screen. Then type gamechanger to start the story. Or, you can stop now and be satisfied with the fact that you made a fictional
 world a better place.""")
 
-first = ask(c.rc + """Which do you choose?""")
+first = ask(c.m + """Which do you choose?""")
 
 if first in ['A','a']:
     firstsecond = ask("""The marriage is still on Thursday, Juliet is still going to use the potion to make her self sleep for two days.
