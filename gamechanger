@@ -46,10 +46,10 @@ bethroved to Romeo. She also expresses her love for him. Do you either become en
         print("""You force Juliet to marry Paris, the same actions and events that occured in the original verison have occured once more. You did
 nothing to make the situation any better, this is because you were blinded by your pride and mindset that since you are the lord of the house
 your choices are always the best ones.""")
-    else:
+    if secondsecond in ['B','b']:
         print(c.b + """You settle your differeces between the Montagues with Romeo and Juliets marriage. You combine your wealth and the familys
 become one of the most wealthy houses in Italy based on the people affections towards the new united house. No more deaths occur and you all live
-on for another 6 years happily, until the black plaque eventally comes and wipes out your entire town anyway.""")
+on for another six years happily, until the black plaque eventally comes and wipes out your entire town anyway.""")
     
     
     if firstsecond in ['B','b']:
