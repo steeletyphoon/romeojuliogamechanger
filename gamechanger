@@ -6,16 +6,19 @@ print(c.y + """Our characters arrive in a pickle, Tybalt has been killed by Juli
 people has been grinded to a halt. With two already dead and maybe more to come help us decide where this will end and if the couple can make it out
 alive.""")
 
-print(c.y + """Juliett: See where she comes from shift with merry look. Capulet: Hey now my headstrong where have you have gadding? Juliet: Where
-I have learned me to repent the sin of disobedient opposition, to you and your behests , and am enjoined by holy lawrence to fall postrate here to
+print(c.y + """
+Juliet: See where she comes from shift with merry look. 
+Capulet: Hey now my headstrong where have you have gadding? 
+Juliet: Where I have learned me to repent the sin of disobedient opposition, to you and your behests , and am enjoined by holy lawrence to fall postrate here to
 beg your pardon. Pardon, I beseech you. Henceforth, I am ever ruled by you.
 Capulet: Send for the county. Go tell him of this I'll have this knot knit up by tomorrow morning...
 No, not till Thursday. There is time enough.
-Go, nurse. Go with her. We'll to church tomorrow. -Lines 15-38, Act 4, Scene 2""")
+Go, nurse. Go with her. We'll to church tomorrow. 
+-Lines 15-38, Act 4, Scene 2""")
 
 print(c.g + """You are Capulet in this situation, in this world though you have not yet made your choice to move up the day of your daughters
 wedding, you want the best for her so you want her to be happy and married as soon as possible. Your judgement is also clouded because a member
-of your family was just killed by a member of your enemys family. You want to get back the order from the chaos that world had lost. Do you think
+of your family was just killed by a member of your enemies family. You want to get back the order from the chaos the world had lost. Do you think
 it is best for you to act quickly and move the marriage forward with the intial plans to marry on Thursday--option A-- or ask Juliet when she wants to 
 get married to Paris--option B--?""")
 
@@ -29,19 +32,19 @@ def ask(question):
     return answer
 
 def die():
-    print(c.g + """You the choices you have made have either turned out the same way the original story did, or you managed to make it worse. You can retry this adventure
-by clear, then pressing enter. This will rid the screen of the old text. Next type gamechanger and then press enter. Only press enter once because it may mess up your
+    print(c.g + """The choices you have made have either turned out the same way the original story did, or you managed to make it worse. You can retry this adventure
+by typing clear, then pressing enter. This will rid the screen of the old text. Next type gamechanger and then press enter. Only press enter once because it may mess up your
 adventure.""")
 
 def better():
     print(c.g + """Congratulations, you have made the world a better place than what happened in the original story. You can either go throw it again by typing clear,
-then pressing enter to clear the screen. Then typing gamechanger to start the story. Or, you can stop now and be satisfied with the fact that you made a fictional
+then pressing enter to clear the screen. Then type gamechanger to start the story. Or, you can stop now and be satisfied with the fact that you made a fictional
 world a better place.""")
 
 first = ask("""Which do you choose?""")
 
 if first in ['A','a']:
-    firstsecond = ask("""The marriage is still on Thursday, Juliett is still going to use the potion to make her self sleep for two days.
+    firstsecond = ask("""The marriage is still on Thursday, Juliet is still going to use the potion to make her self sleep for two days.
 But this time she was not as careful in how she performed this because the date was not as soon. He fear did not drive her to making extra
 careful choies when planning her fake death. She drank the potion in a different way than she should have and it did not go down her system
 properly. Because of this she was only asleep for one day and Juliet begins to wake up inside her tomb.
