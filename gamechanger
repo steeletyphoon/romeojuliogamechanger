@@ -2,7 +2,7 @@
 import skilstak.colors as c
 
 
-print(c.y+ """Our characters arrive in a pickle, Tybalt has been killed by Juliets loved one Romeo. The happy and exciting story of these young
+print(c.y + """Our characters arrive in a pickle, Tybalt has been killed by Juliets loved one Romeo. The happy and exciting story of these young
 people has been grinded to a halt. With two already dead and maybe more to come help us decide where this will end and if the couple can make it out
 alive.""")
 
@@ -18,6 +18,9 @@ wedding, you want the best for her so you want her to be happy and married as so
 of your family was just killed by a member of your enemys family. You want to get back the order from the chaos that world had lost. Do you think
 it is best for you to act quickly and move the marriage forward with the intial plans to marry on Thursday--option A-- or ask Juliet when she wants to 
 get married to Paris--option B--?""")
+
+#For School Project on the classic play of Romeo and Juliet. 1/12/2016
+#The starting part is a quote from Shakesperre's work, not my own.
 
 def ask(question):
     print(c.red + question + c.reset)
@@ -67,7 +70,6 @@ your choices are always the best ones.""")
         print(c.b + """You settle your differeces between the Montagues with Romeo and Juliets marriage. You combine your wealth and the familys
 become one of the most wealthy houses in Italy based on the people affections towards the new united house. No more deaths occur and you all live
 on for another six years happily, until the black plaque eventally comes and wipes out your entire town anyway.""")
-    
     #if firstsecond in ['B','b']:
         #print(c.b + """You use the shovel to blindly swing around hiting against something in the motion. It was your daughters head. She was killed
 #with one blow, now on the floor toppled over. Romeo now enters the tomb with blinding rage as he witnessed you kill his beloved. You each strike
