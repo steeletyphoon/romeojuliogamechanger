@@ -33,6 +33,11 @@ def die():
 by clear, then pressing enter. This will rid the screen of the old text. Next type gamechanger and then press enter. Only press enter once because it may mess up your
 adventure.""")
 
+def better():
+    print(c.g + """Congratulations, you have made the world a better place than what happened in the original story. You can either go throw it again by typing clear,
+then pressing enter to clear the screen. Then typing gamechanger to start the story. Or, you can stop now and be satisfied with the fact that you made a fictional
+world a better place.""")
+
 first = ask("""Which do you choose?""")
 
 if first in ['A','a']:
