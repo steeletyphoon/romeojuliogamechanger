@@ -60,6 +60,7 @@ techincally assisted a fugitive.""")
             print(c.b + """You kept your daughter in a room locked up for her entire life until she eventually killed herself in 3 years over
 despair. Romeo also killed himself as planned when he found out his beloved was marrying another. The two families did not even settle their
 differences at the end. You have made the situation worse than what the initial outcome was.""")
+            die()
 
 if first in ['B','b']:
     secondsecond = ask(c.b + """You ask Juliet what she wants to do. She reponds with I saying that she would like the wedding to continue on the same
