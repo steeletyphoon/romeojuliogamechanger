@@ -47,6 +47,7 @@ grave above into knocking the dead one away--option B--?""")
     if firstsecond in ['B','b']:
         print(c.b + """You swing the shovel violently hitting Juliet in the head killed her instantly. Romeo watches this, kills you and himself in
 action of the fight. The families problems are never solved, the situation is much worse.""")
+        die()
     if firstsecond in ['A','a']:
         firstthird = ask("""You wait and come to the conclusion that your daughter is alive. After much interrogation, you make her tell you
 everything that happened with Romeo. You have the final choice of letting Juliet be happy at the cost of your own happiness by letting her
@@ -72,6 +73,7 @@ bethroved to Romeo. She also expresses her love for him. Do you either become en
         print(c.r + """You force Juliet to marry Paris, the same actions and events that occured in the original verison have occured once more. You did
 nothing to make the situation any better, this is because you were blinded by your pride and mindset that since you are the lord of the house
 your choices are always the best ones.""")
+        die()
     else:
         print(c.b + """You settle your differeces between the Montagues with Romeo and Juliets marriage. You combine your wealth and the familys
 become one of the most wealthy houses in Italy based on the people affections towards the new united house. No more deaths occur and you all live
