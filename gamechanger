@@ -44,7 +44,7 @@ action of the fight. The families problems are never solved, the situation is mu
 everything that happened with Romeo. You have the final choice of letting Juliet be happy at the cost of your own happiness by letting her
 escape to Mantua with Romeo--option a--or keep her confined to the walls of her own room with Paris for the rest of her life--option B--?""")
         if firstthird in ['A','a']:
-            firstconclusion = ask("""You chose to let Juliet be herself in a time period where the women had very little to no control over thier
+            print(c.r + """You chose to let Juliet be herself in a time period where the women had very little to no control over thier
 lives. You have made one of the first steps into a brighter future for humanity. You have also prevented even more death from having to happen.
 Your actions have sadly also made it so the two families will most likely never solve thier dispute now and be forver fighting, while you
 techincally assisted a fugitive.""")
@@ -59,29 +59,30 @@ path that it was before, it being on Thursday. This is so none of her plans with
 she trusts her father and has no reason in the past not to trust her. She explains how she does not really want to marry Paris since she is already
 bethroved to Romeo. She also expresses her love for him. Do you either become enraged at Juliets actions and her force her to marry Paris anyway
 --option A--or repsect her choice to marry Romeo by settling your differences with the Montagues--option B--?""")
-    if secondsecond in ['A','b']:
-        print("""You force Juliet to marry Paris, the same actions and events that occured in the original verison have occured once more. You did
+    if secondsecond in ['A','a']:
+        print(c.r + """You force Juliet to marry Paris, the same actions and events that occured in the original verison have occured once more. You did
 nothing to make the situation any better, this is because you were blinded by your pride and mindset that since you are the lord of the house
 your choices are always the best ones.""")
-    if secondsecond in ['B','b']:
+    else:
         print(c.b + """You settle your differeces between the Montagues with Romeo and Juliets marriage. You combine your wealth and the familys
 become one of the most wealthy houses in Italy based on the people affections towards the new united house. No more deaths occur and you all live
 on for another six years happily, until the black plaque eventally comes and wipes out your entire town anyway.""")
-    if firstsecond in ['B','b']:
-        print(c.b + """You use the shovel to blindly swing around hiting against something in the motion. It was your daughters head. She was killed
-with one blow, now on the floor toppled over. Romeo now enters the tomb with blinding rage as he witnessed you kill his beloved. You each strike
-each other with your weapons until both of you are slain. There is now more death than originally and it is more likely for death to come again
-now since their is even more hate from the families. The situation is worse now because of your actions.""")
     
-    if firstsecond in ['A','a']:
-        firstthird = ask("""You wait and to come to the conlcusion that your daughter is alive. After much interrogation, you make her tell you
-everything that has happened with Romeo. You have the final choice of letting Juliet be happy at the cost of your own happiness by letting her
-escape to Mantua with Romeo--option A--or keep her confined to the walls of her own Room with Paris for the rest of her life--option B--?""")
-        if firstthird in ['A','a']:
-            firstconclusion = ask("""You chose to let Juliet be herself in a time period where the women had little to no control over their
-lives. You have made one of the first steps into a brighter future for humanity. You have also prevented even more death for now. Your actions also
-made it so the two familys are still enemys with each other and you have by law harbored a fugitive.""")
-        else:
-            print(c.b + """You kept your daughter in a room locked up for her entire life until she eventually killed herself in 3 years over despair.
-Romeo also killed himself as planned when he found out his beloved was marrying another. The two familys did not even settle thier differences at
-the end. The situation is now worse that what the initial outcome was.""")
+    #if firstsecond in ['B','b']:
+        #print(c.b + """You use the shovel to blindly swing around hiting against something in the motion. It was your daughters head. She was killed
+#with one blow, now on the floor toppled over. Romeo now enters the tomb with blinding rage as he witnessed you kill his beloved. You each strike
+#each other with your weapons until both of you are slain. There is now more death than originally and it is more likely for death to come again
+#now since their is even more hate from the families. The situation is worse now because of your actions.""")
+    
+    #if firstsecond in ['A','a']:
+        #firstthird = ask("""You wait and to come to the conlcusion that your daughter is alive. After much interrogation, you make her tell you
+#everything that has happened with Romeo. You have the final choice of letting Juliet be happy at the cost of your own happiness by letting her
+#escape to Mantua with Romeo--option A--or keep her confined to the walls of her own Room with Paris for the rest of her life--option B--?""")
+        #if firstthird in ['A','a']:
+            #firstconclusion = ask("""You chose to let Juliet be herself in a time period where the women had little to no control over their
+#lives. You have made one of the first steps into a brighter future for humanity. You have also prevented even more death for now. Your actions also
+#made it so the two familys are still enemys with each other and you have by law harbored a fugitive.""")
+        #else:
+            #print(c.b + """You kept your daughter in a room locked up for her entire life until she eventually killed herself in 3 years over despair.
+#Romeo also killed himself as planned when he found out his beloved was marrying another. The two familys did not even settle thier differences at
+#the end. The situation is now worse that what the initial outcome was.""")
