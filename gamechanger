@@ -11,4 +11,18 @@ I have learned me to repent the sin of disobedient opposition, to you and your b
 beg your pardon. Pardon, I beseech you. Henceforth, I am ever ruled by you.
 Capulet: Send for the county. Go tell him of this I'll have this knot knit up by tomorrow morning...
 No, not till Thursday. There is time enough.
-Go, nurse. Go with her. We'll to church tomorrow.(Lines 15-38, Act 4, Scene 2""")
+Go, nurse. Go with her. We'll to church tomorrow. -Lines 15-38, Act 4, Scene 2""")
+
+print(c.b + """You are Capulet in this situation, in this world though you have not yet made your choice to move up the day of your daughters
+wedding, you want the best for her so you want her to be happy and married as soon as possible. Your judgement is also clouded because a member
+of your family was just killed by a member of your enemys family. You want to get back the order from the chaos that world had lost. Do you think
+it is best for you to act quickly and move the marriage forward with the intial plans to marry on Thursday--option A-- or ask Juliet when she wants to 
+get married to Paris--option B--?""")
+
+def ask(question):
+    print(c.red + question + c.reset)
+    answer = input("> " + c.base3).lower().strip()
+    print(c.reset)
+    return answer
+
+first = ask("""Which do you choose?""")
