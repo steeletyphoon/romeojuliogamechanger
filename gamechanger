@@ -28,6 +28,11 @@ def ask(question):
     print(c.reset)
     return answer
 
+def die():
+    print(c.g + """You the choices you have made have either turned out the same way the original story did, or you managed to make it worse. You can retry this adventure
+by clear, then pressing enter. This will rid the screen of the old text. Next type gamechanger and then press enter. Only press enter once because it may mess up your
+adventure.""")
+
 first = ask("""Which do you choose?""")
 
 if first in ['A','a']:
