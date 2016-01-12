@@ -26,3 +26,13 @@ def ask(question):
     return answer
 
 first = ask("""Which do you choose?""")
+
+if name in ['A', 'a']:
+    firstsecond = ask("""The marriage is still on Thursday, Juliett is still going to use the potion to make her self sleep for two days.
+But this time she was not as careful in how she performed this because the date was not as soon. He fear did not drive her to making extra
+careful choies when planning her fake death. She drank the potion in a different way than she should have and it did not go down her system
+properly. Because of this she was only asleep for one day and Juliet begins to wake up inside her tomb.
+
+You are paying your repects to her while insdie the tomb when you here rumbling from inside. A young and refreshed Juliet emerges out. You decide
+either to pay attention a little closer and see if she is really your daughter--option A--, or you grab the nearby shovel used to dig the fresh
+grave above into knocking the dead one away--option B--?""")
