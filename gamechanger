@@ -27,7 +27,7 @@ def ask(question):
 
 first = ask("""Which do you choose?""")
 
-if name in ['A', 'a']:
+if first in ['A','a']:
     firstsecond = ask("""The marriage is still on Thursday, Juliett is still going to use the potion to make her self sleep for two days.
 But this time she was not as careful in how she performed this because the date was not as soon. He fear did not drive her to making extra
 careful choies when planning her fake death. She drank the potion in a different way than she should have and it did not go down her system
